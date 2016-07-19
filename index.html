@@ -7,23 +7,59 @@
 		<meta name="author" content="CWRUbotix">
 		<link href="site.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+		<script src="script.js"></script>
 	</head>
 	
-	<body>
-		<ul class="nav">
+	<body onload="load()" onresize="load()">
+		<ul id="nav">
+			<img class="nav_logo" src="res/logo.svg"/>
+			<div class="nav_title">
+				<p style="font-size:30px;margin-bottom:0;margin-top:10px;"><b>CWRUbotix</b></p>
+				<p style="font-size:16px;margin-top:0;">Case Western Reserve University's Robotics Team</p>
+			</div>
 			<li><a href="#home">Home</a></li>
-			<li><a href="#projects">Projects</a></li>
+			<li><a href="#whatwedo">What We Do</a></li>
 			<li><a href="#members">Members</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 		<div id="home">
-			<img class="home_logo" src="res/logo.svg"/>
-			<div class="home_title">
-				<h1>CWRUbotix</h1>
-			</div>
+			<img src="res/robospin.gif"/>
+			<div id="motto"><b>WE BUILD ROBOTS BECAUSE ROBOTS ARE AWESOME</b></div>
 		</div>
-		<div id="projects">
-			
+		<div id="whatwedo">
+			<p>Projects</p>
+			<div class="pojects_cont">
+				<div class="project">
+					<a href="#home">
+						<img src="res/logo.svg"/>
+						<div class="project_txt"><b>NASA Robotic Mining Competition</b></div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="#home">
+						<img src="res/logo.svg"/>
+						<div class="project_txt"><b>National Robotics Challenge</b></div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="#home">
+						<img src="res/logo.svg"/>
+						<div class="project_txt"><b>Member Education Projects</b></div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="#home">
+						<img src="res/logo.svg"/>
+						<div class="project_txt"><b>Programming & Design Workshops</b></div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="#home">
+						<img src="res/logo.svg"/>
+						<div class="project_txt"><b>Robotics Outreach Events</b></div>
+					</a>
+				</div>
+			</div>
 		</div>
 		<div id="members">
 			
