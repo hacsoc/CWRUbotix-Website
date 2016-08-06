@@ -6,22 +6,22 @@ document.write(
       </li>\
       <li id='github'>\
         <a href='https://github.com/cwruRobotics'>\
-          <img alt='GitHub' src='res/github-logo.svg' />\
+          <img alt='GitHub' src='res/footer/github-logo.svg' />\
         </a>\
       </li>\
       <li id='facebook'>\
         <a href='https://www.facebook.com/cwrurobotics'>\
-          <img alt='facebook' src='res/facebook-logo.svg' />\
+          <img alt='facebook' src='res/footer/facebook-logo.svg' />\
         </a>\
       </li>\
       <li id='twitter'>\
         <a href='https://twitter.com/cwrubotix'>\
-          <img alt='twitter' src='res/twitter-logo.svg' />\
+          <img alt='twitter' src='res/footer/twitter-logo.svg' />\
         </a>\
       </li>\
       <li id='youtube'>\
         <a href='https://www.youtube.com/cwrubotix'>\
-          <img alt='YouTube' src='res/youtube-icon.svg' />\
+          <img alt='YouTube' src='res/footer/youtube-icon.svg' />\
         </a>\
       </li>\
     </ul>\
