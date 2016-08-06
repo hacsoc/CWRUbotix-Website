@@ -14,6 +14,11 @@ document.write(
           <img alt='twitter' src='res/twitter-logo.svg' />\
         </a>\
       </li>\
+      <li id='youtube'>\
+        <a href='https://www.youtube.com/cwrubotix'>\
+          <img alt='YouTube' src='res/youtube-icon.svg' />\
+        </a>\
+      </li>\
     </ul>\
     <p id='copyright'>\
       Copyright 2016 CWRUbotix\
