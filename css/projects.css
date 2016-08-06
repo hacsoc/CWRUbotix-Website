@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+h3 {
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+p {
+  margin: auto;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+#header {
+  padding-top: 131px;
+}
+
+#header p {
+  margin-top: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#nasa_rmc {
+
+}
+
+.nrc_team p {
+  margin-left: 30px;
+}
