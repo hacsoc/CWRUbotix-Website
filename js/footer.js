@@ -4,6 +4,11 @@ document.write(
       <li id='contact'>\
         <a href='contact.html'>Contact Us</a>\
       </li>\
+      <li id='github'>\
+        <a href='https://github.com/cwruRobotics'>\
+          <img alt='GitHub' src='res/github-logo.svg' />\
+        </a>\
+      </li>\
       <li id='facebook'>\
         <a href='https://www.facebook.com/cwrurobotics'>\
           <img alt='facebook' src='res/facebook-logo.svg' />\
