@@ -6,7 +6,7 @@ document.write(
       <p style='font-size:16px;margin-top:0;margin-left:0;margin-bottom:16px'>Case Western Reserve University's Robotics Team</p>\
     </div>\
     <li><a href='index.html'>Home</a></li>\
-    <li><a href='projects.html'>Projects</a></li>\
+    <li><a href='index.html#whatwedo'>Projects</a></li>\
     <li><a href='index.html#members'>Members</a></li>\
     <li><a href='contact.html'>Contact</a></li>\
   </ul>"
