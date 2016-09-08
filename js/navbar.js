@@ -8,6 +8,7 @@ document.write(
     <li><a href='index.html'>Home</a></li>\
     <li><a href='index.html#whatwedo'>Projects</a></li>\
     <li><a href='index.html#members'>Members</a></li>\
+    <li><a href='sponsorship.html'>Sponsorship</a></li>\
     <li><a href='index.html#contact'>Contact</a></li>\
   </ul>"
 );
