@@ -25,17 +25,19 @@ body {
 }
 
 .project {
+	vertical-align: text-top;
 	display: inline-block;
 	position: relative;
 	margin-left: 40px;
 	margin-right: 40px;
+	height: 400px;
 }
 
 .project img {
 	height: 300px;
-	opacity: 0.3;
-    filter: alpha(opacity=30);
-	margin-bottom: 0;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+	padding-bottom: 20;
 }
 
 .project img:hover {
@@ -50,16 +52,39 @@ body {
 
 .project_txt {
 	font-size: 24px;
-	margin: 0 auto;
+	margin: 10px auto;
 	position: relative;
-	top: -10px;
 	width: 250px;
 	text-align: center;
 }
 
-.pojects_cont {
+.projects_cont {
 	max-width: 1400px;
 	margin: 0 auto;
+}
+
+.sponsor {
+	margin: 25px 50px;
+	display: inline-block;
+}
+
+.sponsors_cont {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+#members {
+	width: 100%;
+	text-align: center;
+}
+
+#members p {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+#members img {
+	width: 100%;
 }
 
 #whatwedo {
@@ -68,6 +93,15 @@ body {
 }
 
 #whatwedo p {
+	font-size: 50px;
+}
+
+#sponsors {
+	width: 100%;
+	text-align: center;
+}
+
+#sponsors p {
 	font-size: 50px;
 }
 

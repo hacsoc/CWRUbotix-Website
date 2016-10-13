@@ -26,7 +26,7 @@ document.write(
       </li>\
     </ul>\
     <p id='copyright'>\
-      Copyright 2016 CWRUbotix\
+      Copyright © 2016 CWRUbotix\
     </p>\
   </div>"
 );
