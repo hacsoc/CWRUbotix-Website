@@ -12,6 +12,7 @@
 	opacity: 0.6;
     filter: alpha(opacity=60);
 	padding-bottom: 20;
+	transition: all .2s ease-in-out;
 }
 
 .project img:hover {
@@ -45,6 +46,7 @@
 .sponsor img {
 	opacity: 0.6;
     filter: alpha(opacity=60);
+	transition: all .2s ease-in-out;
 }
 
 .sponsor img:hover {
