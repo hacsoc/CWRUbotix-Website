@@ -2,7 +2,7 @@ document.write(
   "<div id='footer'>\
     <ul>\
       <li id='contact'>\
-        <a href='contact.html'>Contact Us</a>\
+        Contact Us\
       </li>\
       <li id='github'>\
         <a href='https://github.com/cwruRobotics' target=\"_blank\">\
@@ -22,6 +22,11 @@ document.write(
       <li id='youtube'>\
         <a href='https://www.youtube.com/channel/UCFxYzjLEY09YFLx_UKSINIw' target=\"_blank\">\
           <img alt='YouTube' src='res/footer/youtube-icon.svg' />\
+        </a>\
+      </li>\
+	  <li id='email'>\
+        <a href='mailto:robotics-exec@case.edu'>\
+          <img alt='YouTube' src='res/footer/email-icon.svg' />\
         </a>\
       </li>\
     </ul>\
