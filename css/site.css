@@ -9,6 +9,7 @@ body {
 .hd {
 	font-size: 50px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 a.anchor {
@@ -25,6 +26,10 @@ a.anchor {
 	margin:0 auto 30px auto;
 	background: #333;
 	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.topspace {
+	height:120px;
 }
 
 
