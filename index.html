@@ -12,21 +12,17 @@
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
 		<script src="js/script.js"></script>
 	</head>
-
+<script src="js/navbar.js"></script>
 	<body onload="load()" onresize="load()">
-		<script src="js/navbar.js"></script>
+		<a class="anchor" id="main"></a>
 		<div id="home">
 			<img src="res/home/robospin.gif"/>
 			<div id="motto"><b>WE BUILD ROBOTS BECAUSE ROBOTS ARE AWESOME</b></div>
 		</div>
+		<a class="anchor" id="team"></a>
 		<div id="members">
-			<p>About The Team</p>
-			<div style="border: 0;
-				height: 1px;
-				max-width: 300px;
-				margin:0 auto 30px auto;
-				background: #333;
-				background-image: linear-gradient(to right, #ccc, #333, #ccc);"></div>
+			<p class="hd">About The Team</p>
+			<div class="division""></div>
 			<p style="font-size:24px;max-width:1200px;margin:0 auto 70px auto;">We are CWRUbotix, Case Western Reserve University’s robotics club. 
 			We like long walks on the beach (with robots), designing and building 
 			robots for a variety of robotics competitions, and engaging with the 
@@ -38,8 +34,10 @@
 			Challenges.</p>
 			<img src="res/fullteam.jpg"/>
 		</div>
+		<a class="anchor" id="projects"></a>
 		<div id="whatwedo">
-			<p>Projects</p>
+			<p class="hd">Projects</p>
+			<div class="division""></div>
 			<div class="projects_cont">
 				<div class="project">
 					<a href="nasa_rmc.html">
@@ -50,31 +48,39 @@
 				<div class="project">
 					<a href="nrc.html#nrc_combat">
 						<img src="res/combat1.jpg"/>
-						<div class="project_txt"><b>Combat Bot</b></div>
+						<div class="project_txt"><b>NRC Combat Bot</b></div>
 					</a>
 				</div>
 				<div class="project">
 					<a href="nrc.html#nrc_maze">
 						<img src="res/maze1.jpg"/>
-						<div class="project_txt"><b>Maze Solving Bot</b></div>
+						<div class="project_txt"><b>NRC Maze Solving Bot</b></div>
 					</a>
 				</div>
 				<div class="project">
 					<a href="nrc.html#nrc_rescue">
 						<img src="res/rescue1.jpg"/>
-						<div class="project_txt"><b>Rescue Bot</b></div>
+						<div class="project_txt"><b>NRC Rescue Bot</b></div>
 					</a>
 				</div>
 				<div class="project">
 					<a href="nrc.html#nrc_sumo">
 						<img src="res/sumo1.jpg"/>
-						<div class="project_txt"><b>Sumo Bot</b></div>
+						<div class="project_txt"><b>NRC Sumo Bot</b></div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="bootcamp.html">
+						<img src="res/bootcamp.jpg"/>
+						<div class="project_txt"><b>Bootcamp</b></div>
 					</a>
 				</div>
 			</div>
 		</div>
+		<a class="anchor" id="sponsorship"></a>
 		<div id="sponsors">
-			<p>Sponsors</p>
+			<p class="hd">Sponsors</p>
+			<div class="division""></div>
 			<div class="sponsors_cont">
 				<div class="sponsor">
 					<a href="http://altium.com" target="_blank">
@@ -91,12 +97,17 @@
 						<img style="max-width: 300px;" src="res/sponsors/caa.png"/>
 					</a>
 				</div>
+				<div class="sponsor">
+					<a href="https://usg.case.edu" target="_blank">
+						<img style="max-width: 300px;" src="res/sponsors/usg.png"/>
+					</a>
+				</div>
 			</div>
+			<a class="btn" href="sponsorship.html">
+				Interested in sponsoring?
+			</a>
 		</div>
-		
-		<div id="contact">
-
-		</div>
+		<a class="anchor" id="contact"></a>
 
 		<script src="js/footer.js"></script>
 	</body>
