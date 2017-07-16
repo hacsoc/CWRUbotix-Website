@@ -1,9 +1,6 @@
 document.write(
   "<div id='footer'>\
     <ul>\
-      <li id='contact'>\
-        Contact Us\
-      </li>\
       <li id='github'>\
         <a href='https://github.com/cwruRobotics' target=\"_blank\">\
           <img alt='GitHub' src='res/footer/github-logo.svg' />\
@@ -31,7 +28,7 @@ document.write(
       </li>\
     </ul>\
     <p id='copyright'>\
-      Copyright © 2016 CWRUbotix\
+      Copyright © 2017 CWRUbotix\
     </p>\
   </div>"
 );
