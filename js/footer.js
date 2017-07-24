@@ -8,12 +8,12 @@ document.write(
       </li>\
       <li id='facebook'>\
         <a href='https://www.facebook.com/cwrurobotics' target=\"_blank\">\
-          <img alt='facebook' src='res/footer/facebook-logo.svg' />\
+          <img alt='Facebook' src='res/footer/facebook-logo.svg' />\
         </a>\
       </li>\
       <li id='twitter'>\
         <a href='https://twitter.com/cwrubotix' target=\"_blank\">\
-          <img alt='twitter' src='res/footer/twitter-logo.svg' />\
+          <img alt='Twitter' src='res/footer/twitter-logo.svg' />\
         </a>\
       </li>\
       <li id='youtube'>\
@@ -21,9 +21,9 @@ document.write(
           <img alt='YouTube' src='res/footer/youtube-icon.svg' />\
         </a>\
       </li>\
-	  <li id='email'>\
+	    <li id='email'>\
         <a href='mailto:robotics-exec@case.edu'>\
-          <img alt='YouTube' src='res/footer/email-icon.svg' />\
+          <img alt='Email' src='res/footer/email-icon.svg' />\
         </a>\
       </li>\
     </ul>\
