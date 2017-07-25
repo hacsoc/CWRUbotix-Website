@@ -6,6 +6,10 @@ body {
 	margin:0;
 }
 
+a {
+	color: #333333;
+}
+
 .hd {
 	font-size: 50px;
 	margin-bottom: 20px;
@@ -32,6 +36,11 @@ a.anchor {
 	height:120px;
 }
 
+.content {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 #footer {
@@ -59,8 +68,9 @@ a.anchor {
 	padding-bottom: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
-  opacity: 0.5;
+	opacity: 0.5;
     filter: alpha(opacity=50);
+	transition: all .2s ease-in-out;
 }
 
 #contact a {
