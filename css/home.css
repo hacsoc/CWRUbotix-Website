@@ -102,6 +102,52 @@
 	margin: 0 auto 40px auto;
 }
 
+.rec_blog_cont {
+	max-width: 1400px;
+	margin: 0 auto 0 auto;
+}
+
+.rec_blog {
+	margin: 25px 50px;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 400px;
+}
+
+.rec_blog a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.rec_blog_title {
+	margin: 0px auto;
+	position: relative;
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+.rec_blog_date {
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.rec_blog_text {
+	margin: 10px auto;
+	position: relative;
+	font-size: 16px;
+	text-align: justify;
+	
+}
+
+.rec_blog img {
+	max-width: 400px;
+	padding-bottom: 20;
+}
+
 #join_btn {
 	width: 300px;
 	height: 100px;
@@ -139,6 +185,11 @@
 }
 
 #sponsors {
+	width: 100%;
+	text-align: center;
+}
+
+#blog_index {
 	width: 100%;
 	text-align: center;
 }
