@@ -4,6 +4,8 @@
 	margin: auto;
 }
 
+
+
 .blog_title {
 	text-align: center;
 	font-size: 36px;
@@ -23,7 +25,7 @@
 	text-align: left;
 	font-size: 24px;
 	max-width: 70%;
-	margin: 30px auto -20px auto;
+	margin: 30px auto 20px auto;
 	font-weight: bold;
 }
 

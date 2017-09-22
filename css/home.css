@@ -110,7 +110,7 @@
 .rec_blog {
 	margin: 25px 50px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	max-width: 400px;
 }
 
