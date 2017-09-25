@@ -33,7 +33,7 @@ a.anchor {
 }
 
 .topspace {
-	height:120px;
+	height:160px;
 }
 
 .content {
@@ -99,7 +99,7 @@ a.anchor {
 	top: 0;
 	width:100%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 	margin: auto;
 	padding: 0;
 	list-style: none;
@@ -124,8 +124,8 @@ a.anchor {
 	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 	color: #045184;
 }
 
