@@ -148,6 +148,11 @@
 	padding-bottom: 20;
 }
 
+#join {
+	width: 100%;
+	text-align: center;
+}
+
 .twitter {
 	vertical-align: text-top;
 	display: inline-block;
