@@ -18,9 +18,26 @@
 			<img src="res/nrc/nrc_17/maze.png"/>
 			<p class="hd">NRC Maze 2017</p>
 			<div class="division"></div>
-			<p class="info">
-				Under construction - coming soon!
-			</p>
+			<div class="info">
+				<!--Under construction - coming soon!-->
+				<h2>Mechanics</h2>
+				<img style="width:40%;margin:5%;float:right;" src="res/nrc/nrc_17/sunny_iso_view.PNG">
+				<p>We chose to use omni-wheels because this would eliminate our need to turn our chassis 90 degrees at every turn. We built the chassis out of ¼” plywood. This was a good choice. We designed it in Solidworks and laser-cut the parts. There were maybe 50-100 microns of play in the joints, but after we glued it up, this didn’t seem to be a problem.</p>
+				<h2>Sensors</h2>
+				<h3>How it worked</h3>
+				<p>We chose to use 8 ultrasound sensors (HC-SR04). We built a custom circuit to gather sensor data, consisting of 8 op-amps, 8 capacitors, and 2 4-input nor-gates. The sensors were operated in two groups. Because if we sampled all 8 at once, there would be interference between the sensors and we might never get accurate data.
+				<br />
+				HC-SR04’s are cheap -- we got them for $1.12 each. The alternative would be some type of infrared sensors, which will give unpredictable values when their beam doesn’t bounce off of something. We decided to use 8 HC-SR04’s because this would give us enough info to be able to keep ourselves parallel to the walls
+				<br />
+				<img style="width:50%;margin:5%;float:left;" src="res/nrc/nrc_17/sunny_circuit_pre-voltage_reg.jpeg">
+				The circuit drew more power than we expected. On the first test, we burned out the arduino’s built-in voltage regulator and had to add a beefier one so we could power everything.
+				<br />
+				We were forced to use an Arduino Mega in order to have 8 Analog to Digital Converters (ADC’s). Arduino Uno has only 6.
+				</p>
+
+				
+				<img id="project" src="res/nrc/nrc_17/Schematic_Sunny_sensors.svg">
+			</div>
 		</div>
 
 		<script src="js/footer.js"></script>
