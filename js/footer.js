@@ -11,6 +11,11 @@ document.write(
           <img alt='Facebook' src='res/footer/facebook-logo.svg' />\
         </a>\
       </li>\
+      <li id='instagram'>\
+        <a href= 'https://www.instagram.com/cwrubotix/' target=\"_blank\">\
+          <img alt='Instagram' src='res/footer/instagram-icon.jpg' />\
+        </a>\
+      </li>\
       <li id='twitter'>\
         <a href='https://twitter.com/cwrubotix' target=\"_blank\">\
           <img alt='Twitter' src='res/footer/twitter-logo.svg' />\
